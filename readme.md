@@ -3,8 +3,8 @@
 
 ```
 git init
-git add README.md
-git commit -m "first commit"
+git add README.md   or  git add *
+git commit -m "AddToPrevious"
 git branch -M main
 git remote add origin git@github.com:MrNikY/project_M.git
 git push -u origin main
