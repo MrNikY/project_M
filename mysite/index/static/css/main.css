@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+	padding: 0;
+	text-decoration: none;
+
+   font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.6fr 1.4fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "menu-grid menu-grid menu-grid"
+    "best best best"
+    "proc proc proc"
+    "proc proc proc"
+    "proc proc proc"
+    "fut fut fut";
+}
+
+.menu { grid-area: menu-grid; }
+
+.best { grid-area: best; }
+
+.proc { grid-area: proc; }
+
+.fut { grid-area: fut; }
+
+  
