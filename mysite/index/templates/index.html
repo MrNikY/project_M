@@ -2,15 +2,18 @@
 {% load static %}
 
 
-{% block manu %}
 
 <div class="grid-container">
     <div class="menu-grid">
+      {% block manu %}
         {% include "include/menu.html" %}
+      {% endblock %}
     </div>
-    <div class="best"></div>
+    <div class="best">
+      {% block best %}
+        {% include "include/best.html" %}
+      {% endblock %}
+    </div>
     <div class="proc"></div>
     <div class="fut"></div>
   </div>
-
-{% endblock %}

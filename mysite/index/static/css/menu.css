@@ -22,8 +22,8 @@ div.menu{
 }
 
 div.menu_button{
-	height: 35px;
-	width: 120px;
+	height: 37px;
+    width: 122px;
 
 	display: flex;
 	justify-content: center;
@@ -32,13 +32,7 @@ div.menu_button{
 	position: relative;
 	overflow: hidden;
 	transition-duration: 0.3s;
-
-	background: rgba( 255, 255, 255, 0.00 );
-	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-	backdrop-filter: blur( 0.0px );
-	-webkit-backdrop-filter: blur( 0.0px );
 	border-radius: 10px;
-	border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 div.menu_button::before{
@@ -50,15 +44,15 @@ div.menu_button::before{
 	height: 35px;
 	width: 120px;
 
-	background: rgba(255, 255, 255, 0);
-	background: rgba( 255, 255, 255, 0.40 );
-	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-	backdrop-filter: blur( 4.5px );
-	-webkit-backdrop-filter: blur( 4.5px );
-	border-radius: 10px;
-	border: 1px solid rgba( 255, 255, 255, 0.18 );
 	transition-duration: 0.3s;
 	z-index: 1;
+
+	background: rgba( 255, 255, 255, 0.30 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 0.0px );
+	-webkit-backdrop-filter: blur( 0.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 p.menu_button{
@@ -71,5 +65,12 @@ p.menu_button{
 }
 
 div.menu_button:hover::before{
-	background: rgba(255, 255, 255, 0.5);
+	
+	background: rgba( 255, 255, 255, 0.65 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 12.5px );
+	-webkit-backdrop-filter: blur( 12.5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	
 }
